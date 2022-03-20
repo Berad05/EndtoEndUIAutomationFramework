@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Suite">
+
+
+
+<listeners>
+<listener class-name="com.listeners.ListenerClass"/>
+<listener class-name="com.listeners.AnnotationTransformer"/>
+<listener class-name="com.listeners.MethodInterceptor"/>
+
+</listeners>
+  <test name="Regression">
+    <classes>
+      <class name="com.orangehrm.tests.HomepageTest"/>
+      <class name="com.orangehrm.tests.LoginTests"/>
+      <class name="com.orangehrm.tests.AdminPageTests"/>
+      <class name="com.orangehrm.tests.BaseTest"/>
+    </classes>
+  </test> <!-- Regression -->
+</suite> <!-- Suite -->

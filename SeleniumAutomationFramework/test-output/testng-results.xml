@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-17T07:53:15 IST" name="Suite" finished-at="2022-03-17T07:54:04 IST" duration-ms="49151">
+    <groups>
+    </groups>
+    <test started-at="2022-03-17T07:53:15 IST" name="Regression" finished-at="2022-03-17T07:54:04 IST" duration-ms="49151">
+      <class name="com.orangehrm.tests.LoginTests">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.orangehrm.tests.LoginTests@6da21078]" started-at="2022-03-17T07:53:18 IST" name="setUp" finished-at="2022-03-17T07:53:34 IST" duration-ms="16685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@8d7b252]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validate_loginorangehrm_functionality(java.util.Map)[pri:0, instance:com.orangehrm.tests.LoginTests@6da21078]" started-at="2022-03-17T07:53:34 IST" name="validate_loginorangehrm_functionality" data-provider="getData" finished-at="2022-03-17T07:53:43 IST" duration-ms="9015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{JobDesc=, UserName=Admin, Execute=yes, NavigationURL=, TestCaseName=validate_loginorangehrm_functionality, JobTitle=, JobNote=, Browser=chrome, Password=admin123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_loginorangehrm_functionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tests.LoginTests@6da21078]" started-at="2022-03-17T07:53:43 IST" name="tearDown" finished-at="2022-03-17T07:53:44 IST" duration-ms="895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrm.tests.LoginTests -->
+      <class name="com.orangehrm.tests.AdminPageTests">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.orangehrm.tests.AdminPageTests@7fee8714]" started-at="2022-03-17T07:53:18 IST" name="setUp" finished-at="2022-03-17T07:53:34 IST" duration-ms="16560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@61fafb74]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validate_add_jobTitle(java.util.Map)[pri:0, instance:com.orangehrm.tests.AdminPageTests@7fee8714]" started-at="2022-03-17T07:53:34 IST" name="validate_add_jobTitle" data-provider="getData" finished-at="2022-03-17T07:53:48 IST" duration-ms="13443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{JobDesc=Created by Vaibhav, UserName=Admin, Execute=yes, NavigationURL=, TestCaseName=validate_add_jobTitle, JobTitle=QALead, JobNote=JobNote, Browser=chrome, Password=admin123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_add_jobTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tests.AdminPageTests@7fee8714]" started-at="2022-03-17T07:53:48 IST" name="tearDown" finished-at="2022-03-17T07:53:48 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.orangehrm.tests.AdminPageTests@7fee8714]" started-at="2022-03-17T07:53:48 IST" name="setUp" finished-at="2022-03-17T07:53:56 IST" duration-ms="8387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@540a903b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validate_job_title_navigation(java.util.Map)[pri:0, instance:com.orangehrm.tests.AdminPageTests@7fee8714]" started-at="2022-03-17T07:53:56 IST" name="validate_job_title_navigation" data-provider="getData" finished-at="2022-03-17T07:54:03 IST" duration-ms="7017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{JobDesc=, UserName=Admin, Execute=yes, NavigationURL=https://opensource-demo.orangehrmlive.com/index.php/admin/viewJobTitleList, TestCaseName=validate_job_title_navigation, JobTitle=, JobNote=, Browser=chrome, Password=admin123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_job_title_navigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.tests.AdminPageTests@7fee8714]" started-at="2022-03-17T07:54:03 IST" name="tearDown" finished-at="2022-03-17T07:54:04 IST" duration-ms="711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrm.tests.AdminPageTests -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>
